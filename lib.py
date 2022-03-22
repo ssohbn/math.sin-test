@@ -8,8 +8,3 @@ import math
 # to an expected range
 def normalize(prev: int, new: int) -> float:
 	return new/prev
-
-
-def oscillation_point(hertz: float) -> int:
-	hertz = math.degrees(math.pi * hertz)
-	return 1
